@@ -1,0 +1,84 @@
+/* html */
+body { 
+	margin: 0; 
+	padding: 0; 
+	font: 400 12px Helvetica; 
+	color: #000; 
+	background-color: #FFF; 
+	}
+p { margin: 0; padding: 0; }
+img {
+	float: left;
+	margin-right: 5px;
+	height: 350px;
+	border: 1px solid #000;
+	}
+a:link, a:visited, a:hover, a:active, a:focus { color: #000; text-decoration: underline; }
+
+/* top */
+#top { 
+	position: fixed; 
+	top: 0px; 
+	left: 0px;
+	padding-top: 16px;
+	width: 100%; 
+	min-width: 940px;
+	text-transform: uppercase;
+	background-color: #FFF;
+	z-index: 1;
+	}
+#top a { 
+	text-decoration: none;
+	color: #000; 
+	font: 400 16px Helvetica; 
+	margin-left: 16px; 
+	padding: 6px 10px 4px 10px; 
+	background-color: #FFF; 
+	-webkit-transition: all 0.2s ease; 
+	float: left; 
+	}
+#top a:last-child { 
+	float: right; 
+	margin-right: 16px; 
+	padding: 2px 6px 0px 4px; 
+	border-radius: 24px; 
+	position: absolute; 
+	right: 16px; 
+	}
+#top a:hover, #top .selected { color: #FFF; background-color: #000; }
+	
+/* slider */
+#content {
+	position: relative;
+	top: 56px;
+	height: 500px;
+	width: 1px;
+	height: 520px;  
+	padding-left: 24px;
+	}
+
+table { margin: 0px; padding: 0px; }
+td { vertical-align: top; }
+td p { min-width:200px; margin-right: 20px }
+td h3 { font-size: 12px; font-weight: normal; margin: 0; padding-bottom: 8px; border-bottom: 4px solid #000; text-transform: uppercase; }
+td a { text-decoration: underline; }
+td a:hover { color: #666; }
+#navbox { width: 130px; }	
+ul {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	}
+ul li a:link, ul li a:visited {
+	display: block;
+	font-size: 12px;
+	font-weight: 400;
+	color: #000;
+	text-decoration: none;
+	padding: 4px 6px 4px 6px;
+	-webkit-transition: all 0.2s ease;
+	margin: -4px 0 -4px 0;
+	text-transform: uppercase;
+	}
+ul li a:hover, ul li .selected { background-color: #000; padding-top: 1px solid #FFF; color: #FFF !important; }
+ul li a:active { color: #FFF; }
