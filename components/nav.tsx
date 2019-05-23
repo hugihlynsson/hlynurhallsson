@@ -41,6 +41,7 @@ const Index: StatelessComponent = () => (
         flex-wrap: wrap;
         padding: 0;
         margin: 0;
+        margin-right: -16px;
       }
       li {
         font-size: 16px;
