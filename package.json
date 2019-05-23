@@ -1,0 +1,29 @@
+{
+  "dependencies": {
+    "@types/next": "^8.0.5",
+    "@types/styled-jsx": "^2.2.8",
+    "@typescript-eslint/eslint-plugin": "^1.9.0",
+    "@typescript-eslint/parser": "^1.9.0",
+    "@zeit/next-typescript": "^1.1.1",
+    "eslint": "^5.16.0",
+    "eslint-config-prettier": "^4.3.0",
+    "eslint-import-resolver-typescript": "^1.1.1",
+    "eslint-plugin-import": "^2.17.2",
+    "eslint-plugin-prettier": "^3.1.0",
+    "eslint-plugin-react": "^7.13.0",
+    "fork-ts-checker-webpack-plugin": "^1.3.4",
+    "next": "^8.1.0",
+    "prettier": "^1.17.1",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "typescript": "^3.4.5"
+  },
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "lint": "eslint --fix \"**/*.ts?(x)\"",
+    "now-build": "next build",
+    "start": "next start",
+    "typecheck": "tsc --noEmit"
+  }
+}
