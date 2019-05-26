@@ -1,10 +1,11 @@
 import { NextStatelessComponent } from 'next'
 import Head from 'next/head'
 
+import Frame from '../components/frame'
 import Nav from '../components/nav'
 
 const Index: NextStatelessComponent = () => (
-  <div className="root">
+  <Frame>
     <Head>
       <title>HLYNUR HALLSSON</title>
     </Head>
@@ -18,6 +19,7 @@ const Index: NextStatelessComponent = () => (
         (c. Alexander Steig), 29.03. - 06.05.2018
       </p>
     </div>
+
     <div className="work">
       <img src="/static/images/index/23.jpg" alt="" />
       <p>
@@ -25,6 +27,7 @@ const Index: NextStatelessComponent = () => (
         17.10. - 19.12.2015
       </p>
     </div>
+
     <div className="work">
       <img src="/static/images/index/22.jpg" alt="" />
       <p>
@@ -32,6 +35,7 @@ const Index: NextStatelessComponent = () => (
         09.06.2013
       </p>
     </div>
+
     <div className="work">
       <img src="/static/images/index/21.jpg" alt="" />
       <p>
@@ -39,6 +43,7 @@ const Index: NextStatelessComponent = () => (
         10.03.2013
       </p>
     </div>
+
     <div className="work">
       <img src="/static/images/index/20.jpg" alt="" />
       <p>
@@ -46,6 +51,7 @@ const Index: NextStatelessComponent = () => (
         14.07.-09.09.2012
       </p>
     </div>
+
     <div className="work">
       <img src="/static/images/index/19.jpg" alt="" />
       <p>
@@ -53,10 +59,12 @@ const Index: NextStatelessComponent = () => (
         Hlíf Halldórsdóttir, Reykjavík Art Museum, 19.05.-03.09.2012
       </p>
     </div>
+
     <div className="work">
       <img src="/static/images/index/18.jpg" alt="" />
       <p>„TEXT", Kuckei+Kuckei, Berlin, 15.09.-17.12.2011</p>
     </div>
+
     <div className="work">
       <img src="/static/images/index/17.jpg" alt="" />
       <p>
@@ -64,6 +72,7 @@ const Index: NextStatelessComponent = () => (
         01.10.2011-29.01.2012
       </p>
     </div>
+
     <div className="work">
       <img src="/static/images/index/14.jpg" alt="" />
       <p>
@@ -72,6 +81,7 @@ const Index: NextStatelessComponent = () => (
         11.09.2011
       </p>
     </div>
+
     <div className="work">
       <img src="/static/images/index/16.jpg" alt="" />
       <p>
@@ -79,6 +89,7 @@ const Index: NextStatelessComponent = () => (
         15.05.2011
       </p>
     </div>
+
     <div className="work">
       <img src="/static/images/index/15.jpg" alt="" />
       <p>
@@ -86,6 +97,7 @@ const Index: NextStatelessComponent = () => (
         los!", Kunstverein Hannover, 12.06. - ­15.08.2010
       </p>
     </div>
+
     <div className="work">
       <img src="/static/images/index/13.jpg" alt="" />
       <p>
@@ -93,6 +105,7 @@ const Index: NextStatelessComponent = () => (
         Studios, Vordingborg, (DK) 09.10. - 23.10.2009
       </p>
     </div>
+
     <div className="work">
       <img src="/static/images/index/12.jpg" alt="" />
       <p>
@@ -100,6 +113,7 @@ const Index: NextStatelessComponent = () => (
         Hafnarhús. 06.11.2008 - 11.01.2009
       </p>
     </div>
+
     <div className="work">
       <img src="/static/images/index/11.jpg" alt="" />
       <p>
@@ -107,6 +121,7 @@ const Index: NextStatelessComponent = () => (
         Reykjavík 16.08. – 27.09.2008
       </p>
     </div>
+
     <div className="work">
       <img src="/static/images/index/1.jpeg" alt="" />
       <p>
@@ -114,6 +129,7 @@ const Index: NextStatelessComponent = () => (
         2008 - 16.03 2008
       </p>
     </div>
+
     <div className="work">
       <img src="/static/images/index/2.jpeg" alt="" />
       <p>
@@ -121,12 +137,14 @@ const Index: NextStatelessComponent = () => (
         - 11.10. 2007
       </p>
     </div>
+
     <div className="work">
       <img src="/static/images/index/3.jpeg" alt="" />
       <p>
         Skyldi' ég vera þetta sjálfur, Ketilhúsið, Akureyri, 25.08. - 23.09.2007
       </p>
     </div>
+
     <div className="work">
       <img src="/static/images/index/5.jpeg" alt="" />
       <p>
@@ -134,6 +152,7 @@ const Index: NextStatelessComponent = () => (
         31.03. - 25.05.2007
       </p>
     </div>
+
     <div className="work">
       <img src="/static/images/index/6.jpeg" alt="" />
       <p>
@@ -141,6 +160,7 @@ const Index: NextStatelessComponent = () => (
         - 25.03.2007
       </p>
     </div>
+
     <div className="work">
       <img src="/static/images/index/7.jpeg" alt="" />
       <p>
@@ -148,10 +168,12 @@ const Index: NextStatelessComponent = () => (
         10.03.2007
       </p>
     </div>
+
     <div className="work">
       <img src="/static/images/index/8.gif" alt="" />
       <p>Neue Kunst in Alten Gärten, Gehrden-Lenthe, 27.08 – 08.11 2006</p>
     </div>
+
     <div className="work">
       <img src="/static/images/index/9.jpeg" alt="" />
       <p>
@@ -159,6 +181,7 @@ const Index: NextStatelessComponent = () => (
         Hannover (Seitenwechsel, ART IG) 07.07.2006
       </p>
     </div>
+
     <div className="work">
       <img src="/static/images/index/10.jpeg" alt="" />
       <p>
@@ -168,12 +191,6 @@ const Index: NextStatelessComponent = () => (
     </div>
 
     <style jsx>{`
-      .root {
-        padding: 16px;
-        max-width: 880px;
-        margin: 0 auto;
-      }
-
       .work {
       }
 
@@ -187,7 +204,7 @@ const Index: NextStatelessComponent = () => (
         margin-bottom: 32px;
       }
     `}</style>
-  </div>
+  </Frame>
 )
 
 export default Index
