@@ -1,36 +1,55 @@
 import { StatelessComponent } from 'react'
+import Link from 'next/link'
 
-const Index: StatelessComponent = () => (
+interface Props {
+  path: string
+}
+
+const Index: StatelessComponent<Props> = ({ path }) => (
   <nav>
     <ul>
       <li>
-        <a href="/" className="current">
-          <h1>Hlynur Hallsson</h1>
-        </a>
+        <Link href="/">
+          <a className={path === '/' ? 'current' : ''}>
+            <h1>Hlynur Hallsson</h1>
+          </a>
+        </Link>
       </li>
 
       <li>
-        <a href="/">CV</a>
+        <Link href="/cv">
+          <a className={path === '/cv' ? 'current' : ''}>CV</a>
+        </Link>
       </li>
 
       <li>
-        <a href="/">Blatt Blað</a>
+        <Link href="/blattblad">
+          <a className={path === '/blattblad' ? 'current' : ''}>Blatt Blað</a>
+        </Link>
       </li>
 
       <li>
-        <a href="/">Projects</a>
+        <Link href="/projects">
+          <a className={path === '/cv' ? 'current' : ''}>Projects</a>
+        </Link>
       </li>
 
       <li>
-        <a href="/">Works</a>
+        <Link href="/works">
+          <a className={path === '/works' ? 'current' : ''}>Works</a>
+        </Link>
       </li>
 
       <li>
-        <a href="/">Catalouges</a>
+        <Link href="/catalouges">
+          <a className={path === '/catalouges' ? 'current' : ''}>Catalouges</a>
+        </Link>
       </li>
 
       <li>
-        <a href="/">Contact</a>
+        <Link href="/contact/">
+          <a className={path === '/contact' ? 'current' : ''}>Contact</a>
+        </Link>
       </li>
     </ul>
 

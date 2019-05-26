@@ -1,16 +1,21 @@
-import { NextStatelessComponent } from 'next'
+import { NextFunctionComponent } from 'next'
 import Head from 'next/head'
+import { withRouter, SingletonRouter } from 'next/router'
 
 import Frame from '../components/frame'
 import Nav from '../components/nav'
 
-const Index: NextStatelessComponent = () => (
+interface Props {
+  router: SingletonRouter
+}
+
+const Index: NextFunctionComponent<Props> = ({ router }) => (
   <Frame>
     <Head>
       <title>HLYNUR HALLSSON</title>
     </Head>
 
-    <Nav />
+    <Nav path={router.route} />
 
     <div className="work">
       <img src="/static/images/index/24.jpg" alt="" />
@@ -207,4 +212,4 @@ const Index: NextStatelessComponent = () => (
   </Frame>
 )
 
-export default Index
+export default withRouter(Index)
