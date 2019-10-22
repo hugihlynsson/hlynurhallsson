@@ -15,6 +15,8 @@ export default class CustomDocument extends Document {
                 margin: 0;
                 font-family: BlinkMacSystemFont, -apple-system, Roboto, Helvetica,
                   Arial, sans-serif;
+                font-size: 16px;
+                line-height: 1.2;
                 -webkit-font-smoothing: antialiased;
                 -moz-osx-font-smoothing: grayscale;
               }
