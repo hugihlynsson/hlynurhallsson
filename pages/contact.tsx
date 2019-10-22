@@ -12,7 +12,7 @@ interface Props {
 const Catalouges: NextPage<Props> = ({ router }) => (
   <Frame>
     <Head>
-      <title>CATALOUGES // HLYNUR HALLSSON</title>
+      <title>CONTACT // HLYNUR HALLSSON</title>
     </Head>
 
     <Nav path={router.route} />
