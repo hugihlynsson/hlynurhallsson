@@ -1,16 +1,17 @@
 import { StatelessComponent } from 'react'
 
 const Frame: StatelessComponent<{}> = ({ children }) => (
-  <div>
+  <main>
     {children}
+
     <style jsx>{`
-      div {
+      main {
         padding: 16px;
         max-width: 880px;
         margin: 0 auto;
       }
     `}</style>
-  </div>
+  </main>
 )
 
 export default Frame
