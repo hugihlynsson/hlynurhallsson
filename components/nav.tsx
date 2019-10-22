@@ -47,7 +47,7 @@ const Index: StatelessComponent<Props> = ({ path }) => (
       </li>
 
       <li>
-        <Link href="/contact/">
+        <Link href="/contact">
           <a className={path === '/contact' ? 'current' : ''}>Contact</a>
         </Link>
       </li>
