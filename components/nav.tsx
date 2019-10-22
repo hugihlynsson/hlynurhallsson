@@ -89,6 +89,12 @@ const Index: StatelessComponent<Props> = ({ path }) => (
         background-color: black;
         color: white;
       }
+
+      @media (min-width: 900px) {
+        a:first-child:not(.current) {
+          margin-left: -10px;
+        }
+      }
     `}</style>
   </nav>
 )
