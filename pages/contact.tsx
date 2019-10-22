@@ -1,4 +1,4 @@
-import { NextFunctionComponent } from 'next'
+import { NextPage } from 'next'
 import Head from 'next/head'
 import { withRouter, SingletonRouter } from 'next/router'
 
@@ -9,7 +9,7 @@ interface Props {
   router: SingletonRouter
 }
 
-const Catalouges: NextFunctionComponent<Props> = ({ router }) => (
+const Catalouges: NextPage<Props> = ({ router }) => (
   <Frame>
     <Head>
       <title>CATALOUGES // HLYNUR HALLSSON</title>
@@ -17,7 +17,7 @@ const Catalouges: NextFunctionComponent<Props> = ({ router }) => (
 
     <Nav path={router.route} />
 
-    <img src="/static/images/cv/2.jpg" alt="" />
+    <img src="/images/cv/2.jpg" alt="" />
 
     <h1>Hlynur Hallsson</h1>
 
