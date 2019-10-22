@@ -30,7 +30,7 @@ const Index: StatelessComponent<Props> = ({ path }) => (
 
       <li>
         <Link href="/projects">
-          <a className={path === '/cv' ? 'current' : ''}>Projects</a>
+          <a className={path === '/projects' ? 'current' : ''}>Projects</a>
         </Link>
       </li>
 
