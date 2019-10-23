@@ -33,6 +33,7 @@ const BlattBlad: StatelessComponent<Props> = ({
       img {
         max-width: 100%;
         height: auto;
+        border: 1px solid black;
       }
 
       h1 {
