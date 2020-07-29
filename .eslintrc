@@ -1,0 +1,52 @@
+{
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "project": "./tsconfig.json"
+  },
+  "env": {
+    "browser": true,
+    "jest": true,
+    "es6": true
+  },
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "plugin:import/errors",
+    "plugin:import/warnings",
+    "plugin:@typescript-eslint/recommended",
+    "prettier",
+    "prettier/@typescript-eslint"
+  ],
+  "plugins": ["import", "react", "prettier", "@typescript-eslint"],
+  "rules": {
+    "prettier/prettier": "error",
+    "no-console": "off",
+    "semi": ["error", "never"],
+    "react/display-name": "off",
+    "react/prop-types": "off",
+    "react/no-unescaped-entities": "off",
+    "react/react-in-jsx-scope": "off",
+    "react/jsx-filename-extension": [
+      1,
+      { "extensions": [".js", ".jsx", ".ts", ".tsx"] }
+    ],
+    "@typescript-eslint/no-use-before-define": [
+      "error",
+      { "functions": false, "classes": false, "variables": false }
+    ],
+    "@typescript-eslint/explicit-member-accessibility": 0,
+    "@typescript-eslint/camelcase": ["error", { "properties": "never" }],
+    "@typescript-eslint/explicit-function-return-type": "off"
+  },
+  "settings": {
+    "import/parsers": {
+      "@typescript-eslint/parser": [".ts", ".tsx"]
+    },
+    "import/resolver": {
+      "typescript": {}
+    },
+    "react": {
+      "version": "detect"
+    }
+  }
+}
