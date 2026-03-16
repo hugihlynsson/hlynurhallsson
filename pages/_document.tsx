@@ -4,16 +4,25 @@ export default function Document() {
   return (
     <Html lang="en">
       <Head>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="" />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
+          rel="stylesheet"
+        />
         <style>{`
             *,
             *::before,
             *::after {
               box-sizing: border-box;
             }
+            img {
+              border: 1px solid black;
+            }
             body {
               margin: 0;
-              font-family: BlinkMacSystemFont, -apple-system, Roboto, Helvetica,
-                Arial, sans-serif;
+              font-family: 'Inter', BlinkMacSystemFont, -apple-system, Roboto,
+                Helvetica, Arial, sans-serif;
               font-size: 16px;
               line-height: 1.2;
               -webkit-font-smoothing: antialiased;

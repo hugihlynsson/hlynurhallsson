@@ -1,9 +1,10 @@
 import Head from 'next/head'
 import { useRouter } from 'next/router'
 
+import BlattBladSingle from '../components/blattblad'
+import Columns from '../components/columns'
 import Frame from '../components/frame'
 import Nav from '../components/nav'
-import BlattBladSingle from '../components/blattblad'
 
 const BlattBladPage = () => {
   const router = useRouter()
@@ -16,6 +17,7 @@ const BlattBladPage = () => {
 
       <Nav path={router.route} />
 
+      <Columns>
       <section>
         <h1>Blatt Blað</h1>
         <p>
@@ -102,6 +104,7 @@ const BlattBladPage = () => {
           ISSN 1431-3537
         </p>
       </section>
+      </Columns>
 
       <div className="issues">
         <BlattBladSingle
@@ -1282,7 +1285,7 @@ const BlattBladPage = () => {
       </div>
 
       <style jsx>{`
-        section:not(:first-child) {
+        section {
           margin-bottom: 48px;
         }
 
@@ -1306,9 +1309,7 @@ const BlattBladPage = () => {
 
         @media (min-width: 900px) {
           section {
-            width: 33%;
-            padding-right: 16px;
-            float: left;
+            margin-bottom: 0;
           }
         }
       `}</style>

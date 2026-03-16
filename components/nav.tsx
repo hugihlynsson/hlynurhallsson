@@ -5,7 +5,7 @@ interface Props {
 }
 
 const Nav = ({ path }: Props) => (
-  <nav>
+  <nav className="main-nav">
     <ul>
       <li>
         <Link href="/" className={path === '/' ? 'current' : ''}>
@@ -60,7 +60,7 @@ const Nav = ({ path }: Props) => (
     </ul>
 
     <style jsx global>{`
-      nav ul {
+      .main-nav ul {
         list-style: none;
         display: flex;
         flex-wrap: wrap;
@@ -68,17 +68,17 @@ const Nav = ({ path }: Props) => (
         margin: 0;
         margin-right: -16px;
       }
-      nav li {
+      .main-nav li {
         font-size: 16px;
         margin-right: 16px;
         margin-bottom: 16px;
       }
-      nav h1 {
+      .main-nav h1 {
         font-size: inherit;
         font-weight: inherit;
         margin: 0;
       }
-      nav a {
+      .main-nav a {
         display: block;
         color: black;
         text-decoration: none;
@@ -87,7 +87,7 @@ const Nav = ({ path }: Props) => (
         transition: all 0.2s;
         font-weight: 600;
       }
-      nav .current {
+      .main-nav .current {
         background-color: black;
         color: white;
       }
@@ -97,7 +97,7 @@ const Nav = ({ path }: Props) => (
       }
 
       @media (min-width: 900px) {
-        nav a:first-child:not(.current) {
+        .main-nav a:first-child:not(.current) {
           margin-left: -10px;
         }
       }
