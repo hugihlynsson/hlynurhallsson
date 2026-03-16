@@ -8,7 +8,6 @@ const Frame = ({ children }: { children: ReactNode }) => (
       main {
         padding: 16px;
         max-width: 880px;
-        margin: 0 auto;
       }
     `}</style>
   </main>
