@@ -50,7 +50,6 @@ const Projects = () => {
           text-decoration: none;
           color: black;
           text-transform: uppercase;
-          width: 300px;
         }
         .project-link img {
           display: block;

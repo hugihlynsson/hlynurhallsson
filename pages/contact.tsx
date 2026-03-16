@@ -22,7 +22,7 @@ const Contact = () => {
       <p>
         Prenzlauer Allee 49, 10405 Berlin, Germany
         <br />
-        Hafnarstræti 90, IS-600 Akureyri
+        Aðalstræti 16, IS-600 Akureyri
         <br />
         E-Mail:{' '}
         <a href="mailto:hlynurhallsson@gmail.com">hlynurhallsson@gmail.com</a>
