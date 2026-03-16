@@ -1,18 +1,13 @@
-import { StatelessComponent } from 'react'
+import { ReactNode } from 'react'
 
 interface Props {
   imageUrl?: string
   version: string
   time?: string
-  contributors: React.ReactNode[]
+  contributors: ReactNode[]
 }
 
-const BlattBlad: StatelessComponent<Props> = ({
-  imageUrl,
-  version,
-  time,
-  contributors,
-}) => (
+const BlattBlad = ({ imageUrl, version, time, contributors }: Props) => (
   <article>
     <img src={imageUrl} alt={`BlattBlað ${version}`} />
 

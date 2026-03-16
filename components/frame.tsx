@@ -1,6 +1,6 @@
-import { StatelessComponent } from 'react'
+import { ReactNode } from 'react'
 
-const Frame: StatelessComponent<{}> = ({ children }) => (
+const Frame = ({ children }: { children: ReactNode }) => (
   <main>
     {children}
 
