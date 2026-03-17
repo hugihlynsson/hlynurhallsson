@@ -19,31 +19,35 @@ const CV = () => {
         <h1>Æviferill – Biographie – Biography</h1>
 
         <p>
-          1968*Akureyri (IS)
+          fæddur á / geboren in / born in Akureyri (IS)
           <br />
           1989-90 Akureyri School of Visual Arts
           <br />
           1990-93 Icelandic College of Arts and Crafts, Reykjavík
           <br />
+          1992 Kunstakademiet i Trondheim (Guest student), Trondheim (NO)
+          <br />
           1993-96 FH Hannover, HfbK Hamburg, Kunstakademie Düsseldorf
           <br />
-          1997 Meisterschüler hjá/bei/master class of Professor Ulrich Eller, FH
-          Hannover
+          1997 Meisterschüler hjá / bei / master class of Professor Ulrich
+          Eller, FH Hannover
           <br />
-          1999-2015 Gestakennari við / Lehrauftrag an / Lectureship in Akureyri
+          1997- Sjálfstætt starfandi myndlistarmaður / Freischaffender Künstler
+          / Visual Artist
+          <br />
+          1999-2015 Gestakennari við / Lehrauftrag an / Lectureship at Akureyri
           School of Visual Arts
           <br />
-          2001-2014 Gestakennari við / Lehrauftrag an / /Lectureship in Iceland
+          2001-2014 Gestakennari við / Lehrauftrag an / Lectureship at Iceland
           Academy of the Arts
           <br />
-          2014- Safnstjóri Listasafnsins á Akureyri / Director at the Akureyri
-          Art Museum
+          2014-2024 Safnstjóri Listasafnsins á Akureyri / Director at the
+          Akureyri Art Museum
           <br />
           2015 Kennsla við Háskólann á Akureyri / Teacher at the University of
           Akureyri
           <br />
-          býr og starfar á / lebt und arbeietet in / lives and works in Akureyri
-          og / und / and in Berlin
+          2021- Board member of The Museum Council of Iceland
         </p>
       </section>
 
@@ -51,7 +55,11 @@ const CV = () => {
         <h1>Verðlaun og styrkir – Preise und Stipendien – Prizes and Grants</h1>
 
         <p>
-          2017 Myndstef, sýningarstyrkur
+          2026 Listamannalaun / Arbeitstipendium / working scholarship (IS)
+          <br />
+          2025 Myndlistarráð, útgáfustyrkur / Publishing Grant
+          <br />
+          2017 Myndstef, sýningarstyrkur / Exhibition Grant
           <br />
           2013 Listamannalaun / Arbeitstipendium / working scholarship (IS)
           <br />
@@ -113,8 +121,30 @@ const CV = () => {
           (S/K/C) = Sýningarskrá/Katalog/Catalogue
           <br />
           <br />
-          2018 // „alltsaman - das ganze - all of it“, Kunstraum München,
-          München
+          2026 // „Enn og aftur - Schon wieder - Once again”, Listasafn
+          Árnesinga, Hveragerði
+          <br />
+          <br />
+          2025 // „Elska þig - Liebe dich - Love you”, Mjólkurbúðin, Akureyri
+          <br />
+          <br />
+          2024 // „Herbergi með útsýni / A Room with a View”, Gallery Port,
+          Reykjavík
+          <br />
+          <br />
+          2023 // „Rendur og stjörnur - Streifen und Sterne - Stripes and
+          Stars”, Listamenn Gallerí, Reykjavík
+          <br />
+          <br />
+          2021 // „abandoned stories”, ásamt / mit / with Jenny Michel, (c.
+          Michael Göbel) Kasseler Kunstverein, Kassel (DE) +
+          <br />
+          <br />
+          2020 // „Now or never”, Muur, Höfn (IS)
+          <br />
+          <br />
+          2018 // „alltsaman - das ganze - all of it”, (c. Alexander Steig)
+          Kunstraum München, München
           <br />
           <br />
           2015 // „þetta er það - das ist es - this is it“, Kuckei + Kuckei,
@@ -287,11 +317,42 @@ const CV = () => {
       </section>
 
       <section>
-        <h1>Samsýningar - Gruppenausstellungen - Selected Group Exhibitions</h1>
+        <h1>Samsýningar (úrval) – Gruppenausstellungen (Auswahl) – Selected Group Exhibitions</h1>
 
         <p>
-          2019 „osloBIENNALEN, First Edition 2019–2024”,&nbsp;(c. Eva
-          González-Sancho Bodero, Per Gunnar Eeg-Tverbakk) Oslo City, Norway +
+          2025 // „Já já”, Gallerí Havnará, Tórshavn (FO)
+          <br />
+          „Já já”, Mjólkurbúðin, Akureyri
+          <br />
+          „Mitt rými - My Space”, (c. Katrín Björg Gunnarsdóttir) Listasafnið
+          á Akureyri, Akureyri / Akureyri Art Museum, Akureyri +
+          <br />
+          „Heimalingar 25”, Fífilbrekka, Eyjafjarðarsveit
+          <br />
+          <br />
+          2024 // „Remidía”, Mjólkurbúðin, Akureyri
+          <br />
+          <br />
+          2023 // „Ben”, Kuckei + Kuckei, Berlin
+          <br />
+          „Hildigunnur Birgisdóttir og verk úr safneign”, (c. JBK Ransu)
+          Listasafnið á Akureyri, Akureyri / Akureyri Art Museum, Akureyri
+          <br />
+          „Kviksjá: Íslensk myndlist á 21. öld / Kaleidoscope: Icelandic 21st
+          Century Art”, (c. Markús Þór Andrésson) Listasafn Reykjavíkur,
+          Hafnarhús / Reykjavík Art Museum
+          <br />
+          <br />
+          2022 // „Sviðsett augnablik / Staged Moments”, (c. Vigdís Rún
+          Jónsdóttir), Listasafn Íslands / National Gallery of Iceland,
+          Reykjavík
+          <br />
+          <br />
+          2019 // „Today Is Our Tomorrow”, (c. Paul O'Neill, Eliisa Suvanto)
+          PUBLICS, Helsinki
+          <br />
+          „osloBIENNALEN, First Edition 2019–2024”, (c. Eva González-Sancho
+          Bodero, Per Gunnar Eeg-Tverbakk) Oslo City, Norway +
           <br />
           <br />
           2018 // „The Fountain Mémoire”,&nbsp;(c. Rolf Bier) Deutscher
@@ -668,8 +729,14 @@ const CV = () => {
         <h1>Sýningarverk – Austellungsprojekte – Exhibition projects</h1>
 
         <p>
+          2024-2025 // „Is this North?” Listasafnið á Akureyri og Norræna
+          húsið, Reykjavík / Akureyri Art Museum and Nordic House, Reykjavík
+          <br />
+          2014-2024 // Sýningarstjóri rúmlega 50 sýninga í Listasafninu á
+          Akureyri / Curator of over 50 Exhibitions at Akureyri Art Museum
+          <br />
           2014 // „Þarf það að vera skriflegt?” Málarasalurinn, LHÍ, Reykjavik
-          ásamt/mit/with Jóna Hlíf Halldórsdóttir
+          ásamt / mit / with Jóna Hlíf Halldórsdóttir
           <br />
           2013 // „Fjórtán sinnum fjölfeldi" Populus Tremula, Akureyri
           <br />
@@ -708,11 +775,16 @@ const CV = () => {
       </section>
 
       <section>
-        <h1>Útgefin verk – Eigene Publikationen – Own Publication</h1>
+        <h1>Útgefin verk – Eigene Publikationen – Own Publications</h1>
 
         <p>
+          2024 // „Þúsund dagar - Dagur
+          eitthundraðþrjátíuogníu til tvöhundruðfjörtíuogþrjú" (bók / Buch /
+          book)
+          <br />
           2017 // „Þúsund dagar - Dagur eitt til eitthundraðþrjátíuogátta"
-          Pastel 05 (bók/Buch/book) <br />
+          Pastel 05 (bók / Buch / book)
+          <br />
           2013 // „Stafrófið - Das Alphabet (IS) - The Alphabet (IS)"
           (bók/Buch/book) <br />
           2011 // „Myndir - Bilder - Pictures" (bók/Buch/book)
@@ -747,10 +819,36 @@ const CV = () => {
 
       <section>
         <h1>
-          Birtingar (Úrval) – Bibliografie (Auswahl) – Bibliography (Selection)
+          Birtingar (úrval) – Bibliografie (Auswahl) – Selected Bibliography
         </h1>
 
         <p>
+          2026 // „Enn og aftur - Schon wieder - Once again”, Listasafn
+          Árnesinga, Hveragerði (Craniv Boyd)
+          <br />
+          <br />
+          2025 // „Mitt rými - My Space”, Listasafnið á Akureyri / Akureyri
+          Art Museum (Katrín Björg Gunnarsdóttir)
+          <br />
+          <br />
+          2024 // „Þúsund dagar - Dagur eitthundraðþrjátíuogníu til
+          tvöhundruðfjörtíuogþrjú”, flóra
+          <br />
+          <br />
+          2021 // „Wissen, Worte, Welt / Knowledge, Words, World”, (Gila Kolb
+          / Jelena Toopeekoff), Abandoned Stories, Kasseler Kunstverein
+          <br />
+          <br />
+          2019 // „October 2019”, osloBIENNALEN, First Edition 2019–2024
+          (Markús Þór Andrésson, Æsa Sigurjónsdóttir, Alexander Steig, Einar
+          Bjarki Malmquist, Jill Maurah Leciejewski, Kristin Kjartansdóttir,
+          Kari Ósk Grétudóttir Ege)
+          <br />
+          <br />
+          2018 // „Text und Wirkung”, Barbara Teichelmann, in münchen, Nr.
+          6/2018, s. 37
+          <br />
+          <br />
           2017 // „Þúsund dagar - Dagur eitt til eitthundraðþrjátíuogátta”,
           flóra
           <br />
@@ -1076,17 +1174,17 @@ const CV = () => {
         <h1>Slóðir - Links - Links</h1>
 
         <p>
+          <a href="http://hlynur.is/" target="_blank" rel="noreferrer">
+            hlynur.is
+          </a>
+          <br />
           <a href="http://www.hallsson.de/" target="_blank" rel="noreferrer">
             hallsson.de
           </a>
           <br />
-          <a href="http://www.kuckei-kuckei.de/">kuckei-kuckei.de</a>
-          <br />
-          <a href="http://www.galerie-robert-drees.de/">
-            galerie-robert-drees.de
+          <a href="http://www.kuckei-kuckei.de/" target="_blank" rel="noreferrer">
+            kuckei-kuckei.de
           </a>
-          <br />
-          <a href="http://www.hlynur.is/">hlynur.is</a>
         </p>
       </section>
 
