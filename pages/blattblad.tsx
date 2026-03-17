@@ -18,92 +18,98 @@ const BlattBladPage = () => {
       <Nav path={router.route} />
 
       <Columns>
-      <section>
-        <h1>Blatt Blað</h1>
-        <p>
-          was founded in 1994. It is made in the way that "Magazin for
-          everything" by Dieter Roth published for years. Everyone can publish
-          in the paper. Each author gets one example for his contribution. The
-          work for the next issue, should be one or two Din A5 pages. In the
-          table of contests comes the name of the author, place and year of
-          birth and place of living and some short text (not more than 3 lines).
-          Each time 100 numbered examples are published. Contributions, letters,
-          orders and subscriptions should be send to:
-          <br />
-          <br />
-          BLATT BLAÐ
-          <br />
-          c/o Hlynur Hallsson
-          <br />
-          E-mail:{' '}
-          <a href="mailto:hlynurhallsson@gmail.com">hlynurhallsson@gmail.com</a>
-          <br />
-          <br />
-          Older issues are available in limited number and cost 4 $ the issue.
-          Some numbers are already sold out.
-          <br />
-          ISSN 1431-3537
-        </p>
-      </section>
+        <section>
+          <h1>Blatt Blað</h1>
+          <p>
+            was founded in 1994. It is made in the way that "Magazin for
+            everything" by Dieter Roth published for years. Everyone can publish
+            in the paper. Each author gets one example for his contribution. The
+            work for the next issue, should be one or two Din A5 pages. In the
+            table of contests comes the name of the author, place and year of
+            birth and place of living and some short text (not more than 3
+            lines). Each time 100 numbered examples are published.
+            Contributions, letters, orders and subscriptions should be send to:
+            <br />
+            <br />
+            BLATT BLAÐ
+            <br />
+            c/o Hlynur Hallsson
+            <br />
+            E-mail:{' '}
+            <a href="mailto:hlynurhallsson@gmail.com">
+              hlynurhallsson@gmail.com
+            </a>
+            <br />
+            <br />
+            Older issues are available in limited number and cost 4 $ the issue.
+            Some numbers are already sold out.
+            <br />
+            ISSN 1431-3537
+          </p>
+        </section>
 
-      <section lang="de">
-        <h1>Blatt Blað</h1>
-        <p>
-          wurde im Jahr 1994 gegründet als der kleine nachfolger von
-          "Zeitschrift für alles" das Dieter Roth herausgegeben hat. Jeder darf
-          etwas für das Blatt machen. Jede(r) Autor/in bekommt ein Exemplar für
-          seinen Beitrag. Für die nächste Ausgabe, sollten die Beiträge das
-          Format Din A5 nicht überschreiten. Im Inhaltsverzeichnis erscheinen
-          der Name des Autors, Geburtsort und Jahr und Wohnort und eine kurze
-          Anmerkung (höchstens 3 Zeilen). Jedes Mal gibt es 100 numerierte
-          Examplare. Beiträge, Briefe, Bestellungen und Abos sollten an diese
-          Adresse geschicktwerden:
-          <br />
-          <br />
-          BLATT BLAÐ
-          <br />
-          c/o Hlynur Hallsson
-          <br />
-          E-mail:{' '}
-          <a href="mailto:hlynurhallsson@gmail.com">hlynurhallsson@gmail.com</a>
-          <br />
-          <br />
-          Ältere Ausgaben gibt es in limitierter Zahl und kosten 4 Euro pro
-          stück, einige Augaben sind aber schon ausverkauft.
-          <br />
-          ISSN 1431-3537
-        </p>
-      </section>
+        <section lang="de">
+          <h1>Blatt Blað</h1>
+          <p>
+            wurde im Jahr 1994 gegründet als der kleine nachfolger von
+            "Zeitschrift für alles" das Dieter Roth herausgegeben hat. Jeder
+            darf etwas für das Blatt machen. Jede(r) Autor/in bekommt ein
+            Exemplar für seinen Beitrag. Für die nächste Ausgabe, sollten die
+            Beiträge das Format Din A5 nicht überschreiten. Im
+            Inhaltsverzeichnis erscheinen der Name des Autors, Geburtsort und
+            Jahr und Wohnort und eine kurze Anmerkung (höchstens 3 Zeilen).
+            Jedes Mal gibt es 100 numerierte Examplare. Beiträge, Briefe,
+            Bestellungen und Abos sollten an diese Adresse geschicktwerden:
+            <br />
+            <br />
+            BLATT BLAÐ
+            <br />
+            c/o Hlynur Hallsson
+            <br />
+            E-mail:{' '}
+            <a href="mailto:hlynurhallsson@gmail.com">
+              hlynurhallsson@gmail.com
+            </a>
+            <br />
+            <br />
+            Ältere Ausgaben gibt es in limitierter Zahl und kosten 4 Euro pro
+            stück, einige Augaben sind aber schon ausverkauft.
+            <br />
+            ISSN 1431-3537
+          </p>
+        </section>
 
-      <section lang="is">
-        <h1>Blatt Blað</h1>
-        <p>
-          var stofnað árið 1994 sem í anda "Tímarits fyrir allt" sem Dieter Roth
-          gaf út um árabil. Allir geta birt efni í blaðinu. Hver höfundur fær
-          eitt eintak fyrir framlag sitt. Efni í næsta tölublað, á að vera ein
-          eða tvær A5 síður. Í efnisyfirlitinu birtist nafn höfundar,
-          fæðingarstaður og ár og hvar höfundurinn býr en auk þess er pláss
-          fyrir stuttan texta (hámark 3 línur). Upplagið hverju sinni er 100
-          númeruð eintök. Efni, bréf, pantanir og áskriftarbeiðnir á að senda
-          til:
-          <br />
-          <br />
-          BLATT BLAÐ
-          <br />
-          c/o Hlynur Hallsson
-          <br />
-          Sími: <a href="tel:+3546594744">+354 659 4744</a>
-          <br />
-          E-mail:{' '}
-          <a href="mailto:hlynurhallsson@gmail.com">hlynurhallsson@gmail.com</a>
-          <br />
-          <br />
-          Eldri eintök eru til í takmörkuðu upplagi og kosta 400 krónur
-          eintakið, nokkur tölublöð eru uppseld.
-          <br />
-          ISSN 1431-3537
-        </p>
-      </section>
+        <section lang="is">
+          <h1>Blatt Blað</h1>
+          <p>
+            var stofnað árið 1994 sem í anda "Tímarits fyrir allt" sem Dieter
+            Roth gaf út um árabil. Allir geta birt efni í blaðinu. Hver höfundur
+            fær eitt eintak fyrir framlag sitt. Efni í næsta tölublað, á að vera
+            ein eða tvær A5 síður. Í efnisyfirlitinu birtist nafn höfundar,
+            fæðingarstaður og ár og hvar höfundurinn býr en auk þess er pláss
+            fyrir stuttan texta (hámark 3 línur). Upplagið hverju sinni er 100
+            númeruð eintök. Efni, bréf, pantanir og áskriftarbeiðnir á að senda
+            til:
+            <br />
+            <br />
+            BLATT BLAÐ
+            <br />
+            c/o Hlynur Hallsson
+            <br />
+            Sími: <a href="tel:+3546594744">+354 659 4744</a>
+            <br />
+            E-mail:{' '}
+            <a href="mailto:hlynurhallsson@gmail.com">
+              hlynurhallsson@gmail.com
+            </a>
+            <br />
+            <br />
+            Eldri eintök eru til í takmörkuðu upplagi og kosta 400 krónur
+            eintakið, nokkur tölublöð eru uppseld.
+            <br />
+            ISSN 1431-3537
+          </p>
+        </section>
       </Columns>
 
       <div className="issues">

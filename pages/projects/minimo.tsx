@@ -6,7 +6,8 @@ import ProjectsNav from '../../components/projects-nav'
 const exhibitions = [
   {
     title: 'ER\u00d6FFNUNG - OPENEING - OPNUN',
-    artists: 'Douglas Gordon, Hlynur Hallsson, Petra Kaltenmorgen, Silke Schatz',
+    artists:
+      'Douglas Gordon, Hlynur Hallsson, Petra Kaltenmorgen, Silke Schatz',
     date: '17. June -6. July 1997',
   },
   {
@@ -87,28 +88,22 @@ const Minimo = () => {
       <div className="descriptions">
         <p>
           As I got the prize of the Kunstverein Hannover in 1997, a use of a
-          studio called "Villa Minimo" in Hanover was included. I
-          desided to use the studio as a exhibitionspace for different artists
-          projects.
+          studio called "Villa Minimo" in Hanover was included. I desided to use
+          the studio as a exhibitionspace for different artists projects.
         </p>
         <p>
           Als ich den Preis des Kunstverein Hannover in 1997 bekommen habe war
-          ein Teil davon die kostenlose nützung eines Atelierhauses
-          "Villa Minimo" in Hannover für zwei Jahre. Ich habe
-          mich entschieden dort austellungsprojekte mit verschieden
-          Künstlern zu machen.
+          ein Teil davon die kostenlose nützung eines Atelierhauses "Villa
+          Minimo" in Hannover für zwei Jahre. Ich habe mich entschieden dort
+          austellungsprojekte mit verschieden Künstlern zu machen.
         </p>
         <p>
-          Þegar ég hlaut verðlaun Kunstverein Hannover 1997
-          sem fólu meðal annars í sér afnot af
-          vinnustofu í "Villa Minimo" í Hannover
-          í tvö ár ákvað ég að
-          nýta húsnæðið frekar til sýninga
-          á hinum ýmsu myndlistarmönnum.
+          Þegar ég hlaut verðlaun Kunstverein Hannover 1997 sem fólu meðal
+          annars í sér afnot af vinnustofu í "Villa Minimo" í Hannover í tvö ár
+          ákvað ég að nýta húsnæðið frekar til sýninga á hinum ýmsu
+          myndlistarmönnum.
         </p>
-        <p className="address">
-          Liebigstrasse 32 A, D-30163 Hannover, Germany
-        </p>
+        <p className="address">Liebigstrasse 32 A, D-30163 Hannover, Germany</p>
       </div>
 
       <div className="exhibitions">

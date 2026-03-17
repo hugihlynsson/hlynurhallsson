@@ -43,36 +43,32 @@ const Never = () => {
         <div>
           <p className="column-heading">ALDREI - NIE - NEVER</p>
           <p>
-            er ein sýning á þremur
-            stöðum með 18 listamönnum. Hlynur Hallsson valdi
-            listamennina sem að hans mati eru framúrskarandi og vinna
-            á ólíkan hátt með hugmyndir og efni.
-            Útkoman er ein samsýning sem fer fram á
-            þremur stöðum: í Reykjavík, í
-            Berlín og á Akureyri. Listamönnunum er blandað
-            saman og sýna sex á hverjum stað.
+            er ein sýning á þremur stöðum með 18 listamönnum. Hlynur Hallsson
+            valdi listamennina sem að hans mati eru framúrskarandi og vinna á
+            ólíkan hátt með hugmyndir og efni. Útkoman er ein samsýning sem fer
+            fram á þremur stöðum: í Reykjavík, í Berlín og á Akureyri.
+            Listamönnunum er blandað saman og sýna sex á hverjum stað.
           </p>
         </div>
         <div>
           <p className="column-heading">ALDREI - NIE - NEVER</p>
           <p>
-            ist eine Ausstellung an drei Orten von 18
-            Künstlern. Hlynur Hallsson wählte nach seiner
-            Schätzung bedeutende Künstler, die jeweils nach ihrer
-            persönlichen Arbeitsmethode Ideen und Material verarbeiteten. Das
-            Resultat ist eine Kollektiv-Ausstellung, die an drei Orten
+            ist eine Ausstellung an drei Orten von 18 Künstlern. Hlynur Hallsson
+            wählte nach seiner Schätzung bedeutende Künstler, die jeweils nach
+            ihrer persönlichen Arbeitsmethode Ideen und Material verarbeiteten.
+            Das Resultat ist eine Kollektiv-Ausstellung, die an drei Orten
             stattfindet, und zwar in Reykjavík, Berlin und Akureyri.
           </p>
         </div>
         <div>
           <p className="column-heading">ALDREI - NIE - NEVER</p>
           <p>
-            is an exhibition at three different locations
-            featuring the works of 18 artists. Hlynur Hallsson selected the
-            artists who, according to his appraisal, are outstanding and work
-            independently and in different ways with their ideas and subjects. The
-            outcome is a group exhibition to be held at three locations:
-            Reykjavík, Berlin and Akureyri.
+            is an exhibition at three different locations featuring the works of
+            18 artists. Hlynur Hallsson selected the artists who, according to
+            his appraisal, are outstanding and work independently and in
+            different ways with their ideas and subjects. The outcome is a group
+            exhibition to be held at three locations: Reykjavík, Berlin and
+            Akureyri.
           </p>
         </div>
       </Columns>
@@ -80,23 +76,17 @@ const Never = () => {
       <div className="venues">
         <div className="venue">
           <p>
-            <strong>
-              Nýlistasafnið, The Living Art Museum:
-            </strong>{' '}
-            14. ágúst - 12. september 2004
+            <strong>Nýlistasafnið, The Living Art Museum:</strong> 14. ágúst -
+            12. september 2004
           </p>
-          <p>
-            Laugavegur 26, IS-101 Reykjavík, tel. +354 5514350
-            www.nylo.is
-          </p>
+          <p>Laugavegur 26, IS-101 Reykjavík, tel. +354 5514350 www.nylo.is</p>
           <p>Opening saturday 14.08. at 16:00. Open wed.-sun. 14-18</p>
           <p className="artist-list">
             Anne Berning, www.anneberning.de *1958 Weil, #Berlin
             <br />
             Knut Eckstein *1958 Treysa, #Berlin
             <br />
-            Jóna Hlíf Halldórsdóttir *1976
-            Reykjavík, #Akureyri
+            Jóna Hlíf Halldórsdóttir *1976 Reykjavík, #Akureyri
             <br />
             Jón Laxdal Halldórsson *1950 Akureyri, #Akureyri
             <br />
@@ -114,26 +104,23 @@ const Never = () => {
             Linienstrasse 158, D-10115 Berlin, tel. +49 (0)30 8834354
             www.kuckei-kuckei.de
           </p>
-          <p>Opening friday 24.09. at 19:00. Open tue.-fr. 11-18 & sat. 11-17</p>
+          <p>
+            Opening friday 24.09. at 19:00. Open tue.-fr. 11-18 & sat. 11-17
+          </p>
           <p className="artist-list">
-            Ásmundur Ásmundsson www.this.is/ausgot *1971
-            Akureyri, #Amsterdam
+            Ásmundur Ásmundsson www.this.is/ausgot *1971 Akureyri, #Amsterdam
             <br />
             Rolf Bier www.kultureflash.net/archive/76/priview.html *1960
             Würzburg, #New York & Hannover
             <br />
-            Margrét H. Blöndal www.this.is/fyll/artists/maggab
-            *1970, #Reykjavík
+            Margrét H. Blöndal www.this.is/fyll/artists/maggab *1970, #Reykjavík
             <br />
-            Ráðhildur Ingadóttir
-            www.this.is/fyll/artists/radhildur *1959 Reykjavík,
-            #Reykjavík
+            Ráðhildur Ingadóttir www.this.is/fyll/artists/radhildur *1959
+            Reykjavík, #Reykjavík
             <br />
-            Haraldur Jónsson www.this.is/comet *1961 Helsinki,
-            #Reykjavík
+            Haraldur Jónsson www.this.is/comet *1961 Helsinki, #Reykjavík
             <br />
-            Alexander Steig www.alexandersteig.de *1968, #München &
-            Hannover
+            Alexander Steig www.alexandersteig.de *1968, #München & Hannover
           </p>
         </div>
 
@@ -141,9 +128,7 @@ const Never = () => {
           <p>
             <strong>Gallerí +:</strong> 13.11.- 5.12. 2004
           </p>
-          <p>
-            Brekkugata 35, IS-600 Akureyri, tel. +354 4627818
-          </p>
+          <p>Brekkugata 35, IS-600 Akureyri, tel. +354 4627818</p>
           <p>
             Opening saturday 13.11. at 16:00. Open sat.-sun. 14-17 and on
             appointment
@@ -151,19 +136,16 @@ const Never = () => {
           <p className="artist-list">
             Oliver van den Berg *1967 Essen, #Berlin
             <br />
-            Þóroddur Bjarnason www.thoroddur.com *1970
-            Reykjavík, #Reykjavík
+            Þóroddur Bjarnason www.thoroddur.com *1970 Reykjavík, #Reykjavík
             <br />
-            Ragnar Kjartansson www.this.is/rassi *1976 Reykjavík,
-            #Reykjavík
+            Ragnar Kjartansson www.this.is/rassi *1976 Reykjavík, #Reykjavík
             <br />
             Gunnar Kristinsson *1966 Akureyri, #Berlin
             <br />
-            Tumi Magnússon www.tumimagnusson.com *1957 Reykjavík,
-            #Reykjavík
+            Tumi Magnússon www.tumimagnusson.com *1957 Reykjavík, #Reykjavík
             <br />
-            Magnús Sigurðarson www.this.is/fyll/artists/maggi *1966
-            Reykjavík, #Reykjavík & Miami
+            Magnús Sigurðarson www.this.is/fyll/artists/maggi *1966 Reykjavík,
+            #Reykjavík & Miami
           </p>
         </div>
       </div>

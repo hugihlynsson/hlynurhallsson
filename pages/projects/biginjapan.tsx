@@ -21,9 +21,8 @@ const BigInJapan = () => {
         exhibiting or studying in Japan but this was my first time here. The
         exhibition BIG IN JAPAN is a part of my contribution for the exhibition
         PASSAGAES TO OLYMP. The artists taking part in this work are from
-        Germany, Korea and Iceland: Daniel Behrendt, Thóroddur Bjarnason,
-        Eva Maria Kollischan, Ulrike Schoeller, Kwanho Yuh and Michael
-        Zwingmann.
+        Germany, Korea and Iceland: Daniel Behrendt, Thóroddur Bjarnason, Eva
+        Maria Kollischan, Ulrike Schoeller, Kwanho Yuh and Michael Zwingmann.
       </p>
 
       <p className="curated">Curated by Hlynur Hallsson</p>
@@ -53,21 +52,15 @@ const BigInJapan = () => {
         </div>
         <div className="image-block">
           <img src="/images/projects/biginjapan/4.jpeg" alt="" />
-          <p className="caption">
-            Michael Zwingmann "Yama", 2005
-          </p>
+          <p className="caption">Michael Zwingmann "Yama", 2005</p>
         </div>
         <div className="image-block">
           <img src="/images/projects/biginjapan/5.jpeg" alt="" />
-          <p className="caption">
-            Thoroddur Bjarnason "Enron On Kawara" 2004
-          </p>
+          <p className="caption">Thoroddur Bjarnason "Enron On Kawara" 2004</p>
         </div>
         <div className="image-block">
           <img src="/images/projects/biginjapan/6.jpeg" alt="" />
-          <p className="caption">
-            Daniel Behrendt "Liebe" (Love), 2005
-          </p>
+          <p className="caption">Daniel Behrendt "Liebe" (Love), 2005</p>
         </div>
         <div className="image-block">
           <img src="/images/projects/biginjapan/7.jpeg" alt="" />

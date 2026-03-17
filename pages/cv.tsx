@@ -13,9 +13,18 @@ type CVEntry = {
 const biography: CVEntry[] = [
   { year: '', items: ['fæddur á / geboren in / born in Akureyri (IS)'] },
   { year: '1989-90', items: ['Akureyri School of Visual Arts'] },
-  { year: '1990-93', items: ['Icelandic College of Arts and Crafts, Reykjavík'] },
-  { year: '1992', items: ['Kunstakademiet i Trondheim (Guest student), Trondheim (NO)'] },
-  { year: '1993-96', items: ['FH Hannover, HfbK Hamburg, Kunstakademie Düsseldorf'] },
+  {
+    year: '1990-93',
+    items: ['Icelandic College of Arts and Crafts, Reykjavík'],
+  },
+  {
+    year: '1992',
+    items: ['Kunstakademiet i Trondheim (Guest student), Trondheim (NO)'],
+  },
+  {
+    year: '1993-96',
+    items: ['FH Hannover, HfbK Hamburg, Kunstakademie Düsseldorf'],
+  },
   {
     year: '1997',
     items: [
@@ -48,20 +57,33 @@ const biography: CVEntry[] = [
   },
   {
     year: '2015',
-    items: ['Kennsla við Háskólann á Akureyri / Teacher at the University of Akureyri'],
+    items: [
+      'Kennsla við Háskólann á Akureyri / Teacher at the University of Akureyri',
+    ],
   },
   { year: '2021-', items: ['Board member of The Museum Council of Iceland'] },
 ]
 
 const prizes: CVEntry[] = [
-  { year: '2026', items: ['Listamannalaun / Arbeitstipendium / working scholarship (IS)'] },
+  {
+    year: '2026',
+    items: ['Listamannalaun / Arbeitstipendium / working scholarship (IS)'],
+  },
   { year: '2025', items: ['Myndlistarráð, útgáfustyrkur / Publishing Grant'] },
   { year: '2017', items: ['Myndstef, sýningarstyrkur / Exhibition Grant'] },
-  { year: '2013', items: ['Listamannalaun / Arbeitstipendium / working scholarship (IS)'] },
-  { year: '2011', items: ['Listamannalaun / Arbeitstipendium / working scholarship (IS)'] },
+  {
+    year: '2013',
+    items: ['Listamannalaun / Arbeitstipendium / working scholarship (IS)'],
+  },
+  {
+    year: '2011',
+    items: ['Listamannalaun / Arbeitstipendium / working scholarship (IS)'],
+  },
   {
     year: '2010',
-    items: ['Muggur dvalarstyrkur / Atelierstipendium / artist in residence (D)'],
+    items: [
+      'Muggur dvalarstyrkur / Atelierstipendium / artist in residence (D)',
+    ],
   },
   {
     year: '2006-08',
@@ -75,8 +97,14 @@ const prizes: CVEntry[] = [
       'Bæjarlistamaður Akureyrar',
     ],
   },
-  { year: '2004', items: ['Listamannalaun/Arbeitstipendium/working scholarship (IS)'] },
-  { year: '2003', items: ['Listamannalaun/Arbeitstipendium/working scholarship (IS)'] },
+  {
+    year: '2004',
+    items: ['Listamannalaun/Arbeitstipendium/working scholarship (IS)'],
+  },
+  {
+    year: '2003',
+    items: ['Listamannalaun/Arbeitstipendium/working scholarship (IS)'],
+  },
   {
     year: '2002',
     items: [
@@ -126,7 +154,9 @@ const soloExhibitions: CVEntry[] = [
   },
   {
     year: '2024',
-    items: ['„Herbergi með útsýni / A Room with a View", Gallery Port, Reykjavík'],
+    items: [
+      '„Herbergi með útsýni / A Room with a View", Gallery Port, Reykjavík',
+    ],
   },
   {
     year: '2023',
@@ -149,7 +179,9 @@ const soloExhibitions: CVEntry[] = [
   },
   {
     year: '2015',
-    items: ['„þetta er það - das ist es - this is it", Kuckei + Kuckei, Berlin'],
+    items: [
+      '„þetta er það - das ist es - this is it", Kuckei + Kuckei, Berlin',
+    ],
   },
   {
     year: '2014',
@@ -738,15 +770,11 @@ const exhibitionProjects: CVEntry[] = [
   },
   {
     year: '2000',
-    items: [
-      'DEKP, Hannover ásamt/mit/with Carsten Greife, Daniel Schürer',
-    ],
+    items: ['DEKP, Hannover ásamt/mit/with Carsten Greife, Daniel Schürer'],
   },
   {
     year: '1999',
-    items: [
-      '„Eitthvað- Etwas - Something", Kunstverein Hannover',
-    ],
+    items: ['„Eitthvað- Etwas - Something", Kunstverein Hannover'],
   },
   {
     year: '1999-',
@@ -758,9 +786,7 @@ const exhibitionProjects: CVEntry[] = [
   { year: '1997', items: ['„A 4", Galleri Otto Plonk, Bergen (N)'] },
   {
     year: '1996',
-    items: [
-      '„Sýnir og veruleiki", Gallerí Gúlp, Reykjavík & Akureyri',
-    ],
+    items: ['„Sýnir og veruleiki", Gallerí Gúlp, Reykjavík & Akureyri'],
   },
   { year: '1996-', items: ['gallery hallsson'] },
   { year: '1994-', items: ['Kunstraum Wohnraum, Hannover & Akureyri'] },
@@ -818,11 +844,15 @@ const publications: CVEntry[] = [
   },
   {
     year: '1993',
+    items: ['„Portrett af Listasögunni" (bókverk/Buchobjekt/book object)'],
+  },
+  {
+    year: '1992',
     items: [
-      '„Portrett af Listasögunni" (bókverk/Buchobjekt/book object)',
+      '„Út frá Ásabyggð" (bókverk/Buchobjekt)',
+      '„H-Sagnorð" (myndband/Video)',
     ],
   },
-  { year: '1992', items: ['„Út frá Ásabyggð" (bókverk/Buchobjekt)', '„H-Sagnorð" (myndband/Video)'] },
   {
     year: '1990',
     items: ['„Ljóð Myndir Pappírsflugvélar" (bók/Buch/book)'],
@@ -868,9 +898,7 @@ const bibliography: CVEntry[] = [
   },
   {
     year: '2017',
-    items: [
-      '„Þúsund dagar - Dagur eitt til eitthundraðþrjátíuogátta", flóra',
-    ],
+    items: ['„Þúsund dagar - Dagur eitt til eitthundraðþrjátíuogátta", flóra'],
   },
   {
     year: '2015',
@@ -1000,7 +1028,7 @@ const bibliography: CVEntry[] = [
       '„Hoping to inspire talk, an artist ignites a firestorm" Jim Yardley, International Herald Tribune, 14-15.09.2002',
       '„Myndlistin er pólitísk", Skapti Hallgrímsson, Morgunblaðið, 08.09.2002',
       '„Hoping to Inspire Talk, Artist Ignites Debate" Jim Yardley, The New York Times, 05.09.2002',
-      '„\'Part two\' of controversial art exhibition opens today" Dan Keane, The Big Bend Sentinel, 29.08.2002',
+      "„'Part two' of controversial art exhibition opens today\" Dan Keane, The Big Bend Sentinel, 29.08.2002",
       '„Hlynur Hallsson stýrir sýningu í Marfa", Morgunblaðið, 10.08.2002',
       '„Nordlichter" Peter Herbstreut, Der Tagesspiegel, 18.05.2002',
       '„Hlynur Hallsson sagt Takk" Inken Steen, Weser Kurier, 29.04.2002',
@@ -1028,7 +1056,7 @@ const bibliography: CVEntry[] = [
       '„Ein Fahrstuhl der immer voll ist, Kunst im Treppenhaus des Ministers", Neue Presse, 28.06.2000',
       '„Tvær alveg eins eða hvað?", Morgunblaðið, 08.06.2000',
       '„Schrittfest", Tipp Berlin, Juni 2000',
-      '„Über die Arbeit \'Spurningar-Fragen-Questions\' von Hlynur Hallsson", www.endo.mpg.de/artproject (Raimar Stange)',
+      "„Über die Arbeit 'Spurningar-Fragen-Questions' von Hlynur Hallsson\", www.endo.mpg.de/artproject (Raimar Stange)",
       '„Dagbókin um veg(g)inn" Halldór Björn Runólfsson, Morgunblaðið, 05.02.2000',
       '„Stærsta dagbók á Íslandi!" Þóroddur Bjarnasson, Morgunblaðið, 28.01.2000',
       '„Færir dagbók á vegginn" Margrét E. Ólafsdóttir, Fókus, 14.01.2000',

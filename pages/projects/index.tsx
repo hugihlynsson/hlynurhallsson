@@ -7,9 +7,17 @@ import Nav from '../../components/nav'
 import ProjectsNav from '../../components/projects-nav'
 
 const projects = [
-  { slug: 'biginjapan', image: '/images/projects/biginjapan/1.jpeg', label: 'BIG IN JAPAN' },
+  {
+    slug: 'biginjapan',
+    image: '/images/projects/biginjapan/1.jpeg',
+    label: 'BIG IN JAPAN',
+  },
   { slug: 'never', image: '/images/projects/never/0.jpg', label: 'NEVER' },
-  { slug: 'kw', image: '/images/projects/kw/0.jpeg', label: 'KUNSTRAUM WOHNRAUM' },
+  {
+    slug: 'kw',
+    image: '/images/projects/kw/0.jpeg',
+    label: 'KUNSTRAUM WOHNRAUM',
+  },
   { slug: 'don', image: '/images/projects/don/0.jpeg', label: 'DON' },
   { slug: 'pile', image: '/images/projects/pile/0.gif', label: 'PILE' },
   { slug: 'minimo', image: '/images/projects/minimo/0.jpg', label: 'MINIMO' },
@@ -29,7 +37,11 @@ const Projects = () => {
 
       <div className="grid">
         {projects.map((project) => (
-          <Link key={project.slug} href={`/projects/${project.slug}`} className="project-link">
+          <Link
+            key={project.slug}
+            href={`/projects/${project.slug}`}
+            className="project-link"
+          >
             <img src={project.image} alt={project.label} />
             <span>{project.label}</span>
           </Link>
