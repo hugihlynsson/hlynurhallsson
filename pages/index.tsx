@@ -16,6 +16,13 @@ const Index = () => {
       <Nav path={router.route} />
 
       <div className="work">
+        <img src="/images/index/25.jpg" alt="" />
+        <p>
+          „Heimilið... - Das Zuhause... - The Home…”, 2007, „abandoned stories” in Kasseler Kunstverein ásamt / mit / with Jenny Michel  (c. Michael Göbel) 2021 
+        </p>
+      </div>
+
+      <div className="work">
         <img src="/images/index/24.jpg" alt="" />
         <p>
           „This is Munich", 2018, Alltsaman-Das Ganze-All of it, Kunstraum
